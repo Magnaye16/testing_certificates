@@ -144,7 +144,7 @@ namespace testing_certificates
                 // Automatically save the resized image to the specified folder
                 string saveFolder = @"C:\Users\asus\Pictures\Testing ROTC";
                 string dateTimeStamp = DateTime.Now.ToString("yyyyMMdd");
-                string newFileName = Path.Combine(saveFolder, $"{fullName}_{schoolYear}_{dateTimeStamp}.png");
+                string newFileName = Path.Combine(saveFolder, $"{studentNo}_{schoolYear}_{dateTimeStamp}.png");
 
                 // Ensure the folder exists
                 if (!Directory.Exists(saveFolder))
